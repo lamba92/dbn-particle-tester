@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/lamba92/dbn-particle-tester.svg?branch=master)](https://travis-ci.org/lamba92/dbn-particle-tester) [![](https://jitpack.io/v/Lamba92/dbn-particle-tester.svg)](https://jitpack.io/#Lamba92/dbn-particle-tester)
+[![Build Status](https://travis-ci.org/lamba92/dbn-particle-tester.svg?branch=master)](https://travis-ci.org/lamba92/dbn-particle-tester) [![](https://jitpack.io/v/lamba92/dbn-particle-tester.svg)](https://jitpack.io/#lamba92/dbn-particle-tester)
 
 # DBN PARTICLE TESTER
 
