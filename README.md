@@ -45,15 +45,15 @@ If you are using Maven:
 ```
 ```
 <dependency>
-    <groupId>com.github.User</groupId>
-    <artifactId>Repo</artifactId>
-    <version>Tag</version>
+    <groupId>com.github.lamba92</groupId>
+    <artifactId>dbn-particle-tester</artifactId>
+    <version>0.1</version>
 </dependency>
 ```
 
 ## Usage
 
-To compute che distribution of the two networks at a given moment you have to call `it.unito.UmbrellaParticle.main(particles, vararg evidences)` where `particles` is the number of samples (recommended a number between 100 and 1000), `evidences` is a variable number of `0`s and `1`s where `0` means to set false the evidences and `1` set them to true on that specific iteration.
+To compute che distribution of the two networks at a given moment you have to call `it.unito.UmbrellaParticle.main(particles, vararg evidences)` where `particles` is the number of samples (recommended a number between 1000 and 10000), `evidences` is a variable number of `0`s and `1`s where `0` means to set false the evidences and `1` set them to true on that specific iteration.
 
 ## Authors
 
