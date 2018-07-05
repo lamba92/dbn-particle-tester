@@ -33,7 +33,23 @@ dependencies {
     implementation("com.googlecode.aima-java", "aima-core", "3.0.0")
 }
 ```
-If you are using Maven, switch to Gradle, it's 2018.
+
+If you are using Maven:
+```
+    <repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+```
+```
+	<dependency>
+	    <groupId>com.github.User</groupId>
+	    <artifactId>Repo</artifactId>
+	    <version>Tag</version>
+	</dependency>
+```
 
 ## Usage
 
