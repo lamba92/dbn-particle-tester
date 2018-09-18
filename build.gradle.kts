@@ -4,7 +4,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 buildscript {
     var kotlinVersion: String by extra
     var dokkaVersion: String by extra
-    kotlinVersion = "1.2.51"
+    kotlinVersion = "1.2.70"
     dokkaVersion = "0.9.17"
 
     repositories {
@@ -18,7 +18,7 @@ buildscript {
 
 plugins {
     java
-    kotlin("jvm") version "1.2.51"
+    kotlin("jvm") version "1.2.70"
 }
 
 group = "com.github.lamba92"
@@ -37,7 +37,6 @@ repositories {
 dependencies {
     compile(kotlin("stdlib-jdk8"))
     compile("com.googlecode.aima-java", "aima-core", "3.0.0")
-    testCompile("junit", "junit", "4.12")
 }
 
 val dokka by tasks.getting(DokkaTask::class) {
